@@ -5,7 +5,7 @@ using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CarsInventory;
-using CarsInventory.Controllers;
+using CarsInventory.Web.Controllers;
 
 namespace CarsInventory.Tests.Controllers
 {

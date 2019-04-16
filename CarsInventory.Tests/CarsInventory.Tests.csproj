@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\CarsControllerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
   </ItemGroup>
@@ -99,9 +100,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CarsInventory\CarsInventory.csproj">
-      <Project>{3879933B-9A7E-4042-9F25-D43922F5926C}</Project>
-      <Name>CarsInventory</Name>
+    <ProjectReference Include="..\CarsInventory.Web\CarsInventory.Web.csproj">
+      <Project>{b3e28e63-22d1-4ca4-9685-b4b846461532}</Project>
+      <Name>CarsInventory.Web</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
